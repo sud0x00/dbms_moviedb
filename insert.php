@@ -45,7 +45,7 @@
 		
 		$sql = "INSERT INTO movie_cast VALUES ('$act_id','$movie_id','$role')";
 
-		$sql = "INSERT INTO movie_cast VALUES ('$movie_id','$role')";
+		$sql = "INSERT INTO rating VALUES ('$movie_id','$role')";
 		
 		
 		
