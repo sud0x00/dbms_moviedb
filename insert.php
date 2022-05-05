@@ -33,35 +33,14 @@
 		
 		
 			
-		$sql = "INSERT INTO actor VALUES ('$act_id',
-			'$act_name','$act_gender')";
+		mysqli_query($conn, $sql1)
+		mysqli_query($conn, $sql2)
+		mysqli_query($conn, $sql3)
+		mysqli_query($conn, $sql4)
+		mysqli_query($conn, $sql5)
+	
 
-		$sql = "INSERT INTO director VALUES ('$dir_id',
-			'$dir_name','$dir_phone')";
-
-		$sql = "INSERT INTO movie VALUES ('$movie_id',
-			'$movie_title','$movie_year','$movie_lang','$dir_id')";
-
-		
-		$sql = "INSERT INTO movie_cast VALUES ('$act_id','$movie_id','$role')";
-
-		$sql = "INSERT INTO rating VALUES ('$movie_id','$role')";
-		
-		
-		
-
-
-		if(mysqli_query($conn, $sql)){
-			echo "<h3>data stored in a database successfully."
-				. " Please browse your localhost php my admin"
-				. " to view the updated data</h3>";
-
-			echo nl2br("\n$act_id\n $act_name\n "
-				. "$act_gender\n $dir_id\n $dir_name\n $dir_phone\n $movie_id\n $movie_title\n $movie_year\n $movie_lang\n $role\n $rat\n ");
-		} else{
-			echo "ERROR: Hush! Sorry $sql. "
-				. mysqli_error($conn);
-		}
+		echo nl2br("\n$act_id\n $act_name\n $act_gender\n $dir_id\n $dir_name\n $dir_phone\n $movie_id\n $movie_title\n $movie_year\n $movie_lang\n $role\n $rat\n ");		
 	
 		mysqli_close($conn);
 		?>
