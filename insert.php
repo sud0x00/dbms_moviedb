@@ -39,7 +39,7 @@
 
 		$sql4 = "INSERT INTO movie_cast VALUES ('$act_id','$movie_id','$role')";
 
-		$sql5 = "INSERT INTO rating VALUES ('$movie_id','$role')";
+		$sql5 = "INSERT INTO rating VALUES ('$movie_id','$rat')";
 		
 			
 		mysqli_query($conn, $sql1)
