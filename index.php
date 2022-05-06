@@ -5,10 +5,10 @@
 	<title>Movie DB (only for troons)</title>
 </head>
 
-<body>
+<body style="background-color:#a483de;">
 	<center>
-		<h1>Storing Form data in Database</h1>
-
+		<h1>Movie DB</h1>
+		<h2>Fill the forms</h2>
 		<form action="insert.php" method="post">
 		<h1>Actor</h1>
 <p>
