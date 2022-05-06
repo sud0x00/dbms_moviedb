@@ -14,22 +14,8 @@
 <p>
 				<label for="act_id">Actor ID:</label>
 				<input type="text" name="act_id" id="act_id">
-			</p>
-
-
-
-			
-			
-<p>
 				<label for="act_name">Actor Name:</label>
 				<input type="text" name="act_name" id="act_name">
-			</p>
-
-
-
-			
-			
-<p>
 				<label for="act_gender">Actor Gender:</label>
 				<input type="text" name="act_gender" id="act_gender">
 			</p>
@@ -41,18 +27,8 @@
 <p>
 				<label for="dir_id">Director ID:</label>
 				<input type="text" name="dir_id" id="dir_id">
-			</p>
-
-
-			
-			
-			
-<p>
 				<label for="dir_name">Director Name:</label>
 				<input type="text" name="dir_name" id="dir_name">
-			</p>
-
-<p>
 				<label for="dir_phone">Director Phone:</label>
 				<input type="text" name="dir_phone" id="dir_phone">
 			</p>
@@ -63,21 +39,10 @@
 <p>
 				<label for="movie_id">Movie ID:</label>
 				<input type="text" name="movie_id" id="movie_id">
-			</p>
-
-<p>
 				<label for="movie_title">Movie TITle:</label>
 				<input type="text" name="movie_title" id="movie_title">
-			</p>
-
-
-<p>
 				<label for="movie_year">Year of release:</label>
 				<input type="text" name="movie_year" id="movie_year">
-			</p>
-
-
-<p>
 				<label for="movie_lang">Language:</label>
 				<input type="text" name="movie_lang" id="movie_lang">
 			</p>
