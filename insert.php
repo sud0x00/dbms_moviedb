@@ -31,6 +31,15 @@
 		$role = $_REQUEST['role'];	
 		$rat = $_REQUEST['rat'];	
 		
+		$sql1 = "INSERT INTO actor VALUES ('$act_id','$act_name','$act_gender')";
+
+		$sql2 = "INSERT INTO director VALUES ('$dir_id','$dir_name','$dir_phone')";
+
+		$sql3 = "INSERT INTO movie VALUES ('$movie_id','$movie_title','$movie_year','$movie_lang','$dir_id')";
+
+		$sql4 = "INSERT INTO movie_cast VALUES ('$act_id','$movie_id','$role')";
+
+		$sql5 = "INSERT INTO rating VALUES ('$movie_id','$role')";
 		
 			
 		mysqli_query($conn, $sql1)
