@@ -1,10 +1,10 @@
 # Cope Abhay
-A formbased data entry for your very own sql database (sample database used - movie database). Make sure to change the parameters as per your requirements trannie
+A formbased data entry for your very own sql database (sample database used - movie database). Make sure to change the parameters as per your requirements 
 ![image](https://user-images.githubusercontent.com/91898207/167112532-c0949cf0-f36a-486e-9850-60111b9a3f47.png)
 It sorta looks lykdat
 
 ![image](https://user-images.githubusercontent.com/91898207/167113577-b1ba7e17-a555-4301-a947-5bd00df0d91c.png)
-make sure to setup a sql db on xampp that looks like this or you're screwed.
+make sure to setup a sql db on xampp that looks like this.
 
 tables look like this
 ![image](https://user-images.githubusercontent.com/91898207/167113738-17ced4ef-d33e-4e2b-85bd-4de95bb955d3.png)
