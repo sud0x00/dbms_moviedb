@@ -18,4 +18,3 @@ Enter data like this
 ![image](https://user-images.githubusercontent.com/91898207/167114768-9aa0606d-0f3e-48da-9795-b91b64d09011.png)
 
 
-![image](https://user-images.githubusercontent.com/91898207/167113156-c6da0fc1-b3b4-4107-9c87-35684bf4ce4f.png)
