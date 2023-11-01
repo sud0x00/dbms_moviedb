@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<title>Movie DB (only for troons)</title>
+	<title>Movie DB</title>
 </head>
 
 <body style="background-color:#a483de;">
